@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.395" tests="4" skipped="0" failures="4" errors="0">
-<testcase classname="Login page automation of msme" name="Check login with successful with valid credentials - Example #1.1" time="0.031">
+<testsuite name="Cucumber" time="0.649" tests="16" skipped="0" failures="16" errors="0">
+<testcase classname="Loan Sanction Conditions" name="Add Condition to Loan Sanction" time="0.031">
+<failure/>
+<system-out><![CDATA[
+Given the user is logged into the application...............................undefined
+When the user navigates to the Loan Origination module......................skipped
+And the user clicks on Loan Management......................................skipped
+And the user selects Credit L2..............................................skipped
+And the user opens the Loan Application.....................................skipped
+And the user navigates to the Credit tab....................................skipped
+And the user clicks on Loan Sanction and scrolls down the page..............skipped
+And the user clicks on Add Condition........................................skipped
+When the user enters the condition and clicks on the Save button............skipped
+Then the user should be able to add conditions successfully.................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Delete Sanction Condition" name="Delete Sanction Condition Successfully" time="0.006">
+<failure/>
+<system-out><![CDATA[
+Given User is on loan sanction page.........................................undefined
+When user clicks on delete sanction condition...............................skipped
+Then the sanction condition should deleted successfully.....................skipped
+Then the sanction condition should be removed from the list.................skipped
+And I should see a message Sanction condition deleted successfully..........skipped
+]]></system-out>
+</testcase>
+<testcase classname="Delete Sanction Condition" name="Cancel the sanction condition deletion" time="0.017">
+<failure/>
+<system-out><![CDATA[
+And I cancel the deletion in the confirmation popup.........................undefined
+Then the sanction condition should remain in the list.......................skipped
+And I should not see any deletion confirmation message......................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Edit Loan sanction condition" name="Edit an existing sanction condition" time="0.004">
+<failure/>
+<system-out><![CDATA[
+Given the user is on the loan sanction page.................................undefined
+When the user clicks the "Edit Sanction" button.............................skipped
+And updates the sanction condition and changes the status...................skipped
+And clicks the "Save" button................................................skipped
+Then the sanction condition should be successfully updated, and its status should be changed to Complete..skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login page automation of msme" name="Check login with successful with valid credentials - Example #1.1" time="0.006">
 <failure/>
 <system-out><![CDATA[
 Given User is in the login page.............................................undefined
@@ -10,7 +53,7 @@ Then user is navigate to dashboard page.....................................skip
 And close the browser.......................................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Login page automation of msme" name="Check login with successful with valid credentials - Example #1.2" time="0.008">
+<testcase classname="Login page automation of msme" name="Check login with successful with valid credentials - Example #1.2" time="0.005">
 <failure/>
 <system-out><![CDATA[
 Given User is in the login page.............................................undefined
@@ -20,7 +63,7 @@ Then user is navigate to dashboard page.....................................skip
 And close the browser.......................................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Login page automation of msme" name="Check login with successful with valid credentials - Example #1.3" time="0.006">
+<testcase classname="Login page automation of msme" name="Check login with successful with valid credentials - Example #1.3" time="0.005">
 <failure/>
 <system-out><![CDATA[
 Given User is in the login page.............................................undefined
@@ -30,7 +73,7 @@ Then user is navigate to dashboard page.....................................skip
 And close the browser.......................................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Login page automation of msme" name="Check login with successful with valid credentials - Example #1.4" time="0.012">
+<testcase classname="Login page automation of msme" name="Check login with successful with valid credentials - Example #1.4" time="0.008">
 <failure/>
 <system-out><![CDATA[
 Given User is in the login page.............................................undefined
@@ -38,6 +81,119 @@ When user enters vaalid "FMF049872" and "Test@123"..........................skip
 And Clicks on login button..................................................skipped
 Then user is navigate to dashboard page.....................................skipped
 And close the browser.......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sanction condition Vetting" name="Add Condition to Loan Sanction" time="0.009">
+<failure/>
+<system-out><![CDATA[
+When the user navigates to the Loan Origination module......................undefined
+And the user clicks on Loan Management......................................skipped
+And the user selects Credit L2..............................................skipped
+And the user opens the Loan Application.....................................skipped
+And the user navigates to the Credit tab....................................skipped
+And the user clicks on Loan Sanction and scrolls down the page..............skipped
+And the user clicks on Add Condition........................................skipped
+When the user enters the condition and clicks on the Save button............skipped
+Then the user should be able to add conditions successfully.................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sanction condition Vetting" name="Edit an existing sanction condition" time="0.005">
+<failure/>
+<system-out><![CDATA[
+When the user navigates to the Loan Origination module......................undefined
+And the user clicks on Loan Management......................................skipped
+And the user selects Credit L2..............................................skipped
+And the user opens the Loan Application.....................................skipped
+And the user navigates to the Credit tab....................................skipped
+And the user clicks on Loan Sanction and scrolls down the page..............skipped
+When the user clicks the Edit Sanction button...............................skipped
+And updates the sanction condition and changes the status...................skipped
+And clicks the Save button..................................................skipped
+Then the sanction condition should be successfully updated, and its status should be changed to Complete..skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sanction condition Vetting" name="Successfully image upload with a single image" time="0.009">
+<failure/>
+<system-out><![CDATA[
+When the user navigates to the Loan Origination module......................undefined
+And the user clicks on Loan Management......................................skipped
+And the user selects Credit L2..............................................skipped
+And the user opens the Loan Application.....................................skipped
+And the user navigates to the Credit tab....................................skipped
+And the user clicks on Loan Sanction and scrolls down the page..............skipped
+Then user click on image upload icon........................................skipped
+And upload image with remark................................................skipped
+And Click on save button....................................................skipped
+When user click on Image icon...............................................skipped
+Then it should display the uploaded image...................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sanction condition Vetting" name="Successfully image upload with a multiple image" time="0.009">
+<failure/>
+<system-out><![CDATA[
+When the user navigates to the Loan Origination module......................undefined
+And the user clicks on Loan Management......................................skipped
+And the user selects Credit L2..............................................skipped
+And the user opens the Loan Application.....................................skipped
+And the user navigates to the Credit tab....................................skipped
+And the user clicks on Loan Sanction and scrolls down the page..............skipped
+Then user click on image upload icon........................................skipped
+And upload image with remark................................................skipped
+And Click on save button....................................................skipped
+When user click on Image icon...............................................skipped
+Then it should display the uploaded images..................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sanction condition Vetting" name="Delete Sanction Condition Successfully" time="0.005">
+<failure/>
+<system-out><![CDATA[
+When the user navigates to the Loan Origination module......................undefined
+And the user clicks on Loan Management......................................skipped
+And the user selects Credit L2..............................................skipped
+And the user opens the Loan Application.....................................skipped
+And the user navigates to the Credit tab....................................skipped
+And the user clicks on Loan Sanction and scrolls down the page..............skipped
+Given User is on loan sanction page.........................................skipped
+When user clicks on delete sanction condition...............................skipped
+Then the sanction condition should deleted successfully.....................skipped
+Then the sanction condition should be removed from the list.................skipped
+And I should see a message Sanction condition deleted successfully..........skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sanction condition Vetting" name="Cancel the sanction condition deletion" time="0.005">
+<failure/>
+<system-out><![CDATA[
+When the user navigates to the Loan Origination module......................undefined
+And the user clicks on Loan Management......................................skipped
+And the user selects Credit L2..............................................skipped
+And the user opens the Loan Application.....................................skipped
+And the user navigates to the Credit tab....................................skipped
+And the user clicks on Loan Sanction and scrolls down the page..............skipped
+And I cancel the deletion in the confirmation popup.........................skipped
+Then the sanction condition should remain in the list.......................skipped
+And I should not see any deletion confirmation message......................skipped
+]]></system-out>
+</testcase>
+<testcase classname="image upload under sanction condition" name="Successfully image upload with a single image" time="0.009">
+<failure/>
+<system-out><![CDATA[
+Given user is on loan sanction page.........................................undefined
+Then user click on image upload icon........................................skipped
+And upload image with remark................................................skipped
+And Click on save button....................................................skipped
+When user click on Image icon...............................................skipped
+Then it should display the uploaded image...................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="image upload under sanction condition" name="Successfully image upload with a multiple image" time="0.009">
+<failure/>
+<system-out><![CDATA[
+Given user is on loan sanction page.........................................undefined
+Then user click on image upload icon........................................skipped
+And upload image with remark................................................skipped
+And Click on save button....................................................skipped
+When user click on Image icon...............................................skipped
+Then it should display the uploaded images..................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>

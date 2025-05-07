@@ -1,5 +1,6 @@
 package com.msme.pom;
 
+import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 
@@ -44,9 +45,7 @@ private WebElement ownershipType ;
 	
 @FindBy(xpath="//input[@type=\"text\" and @name=\"address1\"]")
 private WebElement address1;	
-	
-@FindBy(xpath="")
-private WebElement ;
+
 	
 WebDriver driver;	
 	
@@ -54,7 +53,7 @@ public 	GeoLocationDistance(WebDriver driver) {
 	PageFactory.initElements(driver,this );
 }
 
-	public void addAddressUnderMainApplicant() {
+	public void addAddressUnderMainApplicant() throws AWTException, InterruptedException {
 		manageLoanApp.click();
 		loanappid.sendKeys("407724");
 		Robot r1=new Robot();

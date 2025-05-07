@@ -1,8 +1,151 @@
 -------------------------------------------------------------------------------
 Test set: com.msme.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.933 s <<< FAILURE! -- in com.msme.runner.TestRunner
-Login page automation of msme.Check login with successful with valid credentials #1 -- Time elapsed: 0.184 s <<< ERROR!
+Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 1.522 s <<< FAILURE! - in com.msme.runner.TestRunner
+Loan Sanction Conditions.Add Condition to Loan Sanction  Time elapsed: 0.178 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user is logged into the application' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user is logged into the application")
+public void the_user_is_logged_into_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user navigates to the Loan Origination module")
+public void the_user_navigates_to_the_loan_origination_module() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Management")
+public void the_user_clicks_on_loan_management() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user selects Credit L2")
+public void the_user_selects_credit_l2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user opens the Loan Application")
+public void the_user_opens_the_loan_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user navigates to the Credit tab")
+public void the_user_navigates_to_the_credit_tab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Sanction and scrolls down the page")
+public void the_user_clicks_on_loan_sanction_and_scrolls_down_the_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Add Condition")
+public void the_user_clicks_on_add_condition() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user enters the condition and clicks on the Save button")
+public void the_user_enters_the_condition_and_clicks_on_the_save_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the user should be able to add conditions successfully")
+public void the_user_should_be_able_to_add_conditions_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Delete Sanction Condition.Delete Sanction Condition Successfully  Time elapsed: 0.021 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User is on loan sanction page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on loan sanction page")
+public void user_is_on_loan_sanction_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on delete sanction condition")
+public void user_clicks_on_delete_sanction_condition() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the sanction condition should deleted successfully")
+public void the_sanction_condition_should_deleted_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the sanction condition should be removed from the list")
+public void the_sanction_condition_should_be_removed_from_the_list() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see a message Sanction condition deleted successfully")
+public void i_should_see_a_message_sanction_condition_deleted_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Delete Sanction Condition.Cancel the sanction condition deletion  Time elapsed: 0.031 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I cancel the deletion in the confirmation popup' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I cancel the deletion in the confirmation popup")
+public void i_cancel_the_deletion_in_the_confirmation_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the sanction condition should remain in the list")
+public void the_sanction_condition_should_remain_in_the_list() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should not see any deletion confirmation message")
+public void i_should_not_see_any_deletion_confirmation_message() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Edit Loan sanction condition.Edit an existing sanction condition  Time elapsed: 0.034 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user is on the loan sanction page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user is on the loan sanction page")
+public void the_user_is_on_the_loan_sanction_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks the {string} button")
+public void the_user_clicks_the_button(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("updates the sanction condition and changes the status")
+public void updates_the_sanction_condition_and_changes_the_status() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks the {string} button")
+public void clicks_the_button(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the sanction condition should be successfully updated, and its status should be changed to Complete.")
+public void the_sanction_condition_should_be_successfully_updated_and_its_status_should_be_changed_to_complete() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login page automation of msme.Check login with successful with valid credentials #1  Time elapsed: 0.012 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is in the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -34,7 +177,7 @@ public void close_the_browser() {
 }
 
 
-Login page automation of msme.Check login with successful with valid credentials #2 -- Time elapsed: 0.024 s <<< ERROR!
+Login page automation of msme.Check login with successful with valid credentials #2  Time elapsed: 0.021 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is in the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -66,7 +209,7 @@ public void close_the_browser() {
 }
 
 
-Login page automation of msme.Check login with successful with valid credentials #3 -- Time elapsed: 0.020 s <<< ERROR!
+Login page automation of msme.Check login with successful with valid credentials #3  Time elapsed: 0.014 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is in the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -98,7 +241,7 @@ public void close_the_browser() {
 }
 
 
-Login page automation of msme.Check login with successful with valid credentials #4 -- Time elapsed: 0.025 s <<< ERROR!
+Login page automation of msme.Check login with successful with valid credentials #4  Time elapsed: 0.019 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is in the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -125,6 +268,427 @@ public void user_is_navigate_to_dashboard_page() {
 }
 @Then("close the browser")
 public void close_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Sanction condition Vetting.Add Condition to Loan Sanction  Time elapsed: 0.014 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to the Loan Origination module' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("the user navigates to the Loan Origination module")
+public void the_user_navigates_to_the_loan_origination_module() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Management")
+public void the_user_clicks_on_loan_management() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user selects Credit L2")
+public void the_user_selects_credit_l2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user opens the Loan Application")
+public void the_user_opens_the_loan_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user navigates to the Credit tab")
+public void the_user_navigates_to_the_credit_tab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Sanction and scrolls down the page")
+public void the_user_clicks_on_loan_sanction_and_scrolls_down_the_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Add Condition")
+public void the_user_clicks_on_add_condition() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user enters the condition and clicks on the Save button")
+public void the_user_enters_the_condition_and_clicks_on_the_save_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the user should be able to add conditions successfully")
+public void the_user_should_be_able_to_add_conditions_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Sanction condition Vetting.Edit an existing sanction condition  Time elapsed: 0.015 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to the Loan Origination module' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("the user navigates to the Loan Origination module")
+public void the_user_navigates_to_the_loan_origination_module() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Management")
+public void the_user_clicks_on_loan_management() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user selects Credit L2")
+public void the_user_selects_credit_l2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user opens the Loan Application")
+public void the_user_opens_the_loan_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user navigates to the Credit tab")
+public void the_user_navigates_to_the_credit_tab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Sanction and scrolls down the page")
+public void the_user_clicks_on_loan_sanction_and_scrolls_down_the_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks the Edit Sanction button")
+public void the_user_clicks_the_edit_sanction_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("updates the sanction condition and changes the status")
+public void updates_the_sanction_condition_and_changes_the_status() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks the Save button")
+public void clicks_the_save_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the sanction condition should be successfully updated, and its status should be changed to Complete.")
+public void the_sanction_condition_should_be_successfully_updated_and_its_status_should_be_changed_to_complete() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Sanction condition Vetting.Successfully image upload with a single image  Time elapsed: 0.021 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to the Loan Origination module' and 10 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("the user navigates to the Loan Origination module")
+public void the_user_navigates_to_the_loan_origination_module() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Management")
+public void the_user_clicks_on_loan_management() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user selects Credit L2")
+public void the_user_selects_credit_l2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user opens the Loan Application")
+public void the_user_opens_the_loan_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user navigates to the Credit tab")
+public void the_user_navigates_to_the_credit_tab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Sanction and scrolls down the page")
+public void the_user_clicks_on_loan_sanction_and_scrolls_down_the_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user click on image upload icon")
+public void user_click_on_image_upload_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("upload image with remark")
+public void upload_image_with_remark() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Click on save button")
+public void click_on_save_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user click on Image icon")
+public void user_click_on_image_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("it should display the uploaded image")
+public void it_should_display_the_uploaded_image() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Sanction condition Vetting.Successfully image upload with a multiple image  Time elapsed: 0.029 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to the Loan Origination module' and 10 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("the user navigates to the Loan Origination module")
+public void the_user_navigates_to_the_loan_origination_module() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Management")
+public void the_user_clicks_on_loan_management() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user selects Credit L2")
+public void the_user_selects_credit_l2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user opens the Loan Application")
+public void the_user_opens_the_loan_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user navigates to the Credit tab")
+public void the_user_navigates_to_the_credit_tab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Sanction and scrolls down the page")
+public void the_user_clicks_on_loan_sanction_and_scrolls_down_the_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user click on image upload icon")
+public void user_click_on_image_upload_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("upload image with remark")
+public void upload_image_with_remark() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Click on save button")
+public void click_on_save_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user click on Image icon")
+public void user_click_on_image_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("it should display the uploaded images")
+public void it_should_display_the_uploaded_images() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Sanction condition Vetting.Delete Sanction Condition Successfully  Time elapsed: 0.018 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to the Loan Origination module' and 10 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("the user navigates to the Loan Origination module")
+public void the_user_navigates_to_the_loan_origination_module() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Management")
+public void the_user_clicks_on_loan_management() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user selects Credit L2")
+public void the_user_selects_credit_l2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user opens the Loan Application")
+public void the_user_opens_the_loan_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user navigates to the Credit tab")
+public void the_user_navigates_to_the_credit_tab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Sanction and scrolls down the page")
+public void the_user_clicks_on_loan_sanction_and_scrolls_down_the_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on loan sanction page")
+public void user_is_on_loan_sanction_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on delete sanction condition")
+public void user_clicks_on_delete_sanction_condition() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the sanction condition should deleted successfully")
+public void the_sanction_condition_should_deleted_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the sanction condition should be removed from the list")
+public void the_sanction_condition_should_be_removed_from_the_list() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see a message Sanction condition deleted successfully")
+public void i_should_see_a_message_sanction_condition_deleted_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Sanction condition Vetting.Cancel the sanction condition deletion  Time elapsed: 0.018 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to the Loan Origination module' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("the user navigates to the Loan Origination module")
+public void the_user_navigates_to_the_loan_origination_module() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Management")
+public void the_user_clicks_on_loan_management() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user selects Credit L2")
+public void the_user_selects_credit_l2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user opens the Loan Application")
+public void the_user_opens_the_loan_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user navigates to the Credit tab")
+public void the_user_navigates_to_the_credit_tab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on Loan Sanction and scrolls down the page")
+public void the_user_clicks_on_loan_sanction_and_scrolls_down_the_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I cancel the deletion in the confirmation popup")
+public void i_cancel_the_deletion_in_the_confirmation_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the sanction condition should remain in the list")
+public void the_sanction_condition_should_remain_in_the_list() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should not see any deletion confirmation message")
+public void i_should_not_see_any_deletion_confirmation_message() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+image upload under sanction condition.Successfully image upload with a single image  Time elapsed: 0.017 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user is on loan sanction page' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on loan sanction page")
+public void user_is_on_loan_sanction_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user click on image upload icon")
+public void user_click_on_image_upload_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("upload image with remark")
+public void upload_image_with_remark() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Click on save button")
+public void click_on_save_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user click on Image icon")
+public void user_click_on_image_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("it should display the uploaded image")
+public void it_should_display_the_uploaded_image() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+image upload under sanction condition.Successfully image upload with a multiple image  Time elapsed: 0.023 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user is on loan sanction page' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on loan sanction page")
+public void user_is_on_loan_sanction_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user click on image upload icon")
+public void user_click_on_image_upload_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("upload image with remark")
+public void upload_image_with_remark() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Click on save button")
+public void click_on_save_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user click on Image icon")
+public void user_click_on_image_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("it should display the uploaded images")
+public void it_should_display_the_uploaded_images() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }

@@ -8,7 +8,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "MSME_cucumberProject/src/test/resources/FeatureFile/GeoLocationDistance.feature",
+    features = "C:\\Users\\soubhagyalaxmi\\eclipse-workspace\\MSME_cucumberProject\\src\\test\\resources\\FeatureFile",
     glue = "stepdefinition",
     plugin = {
             "pretty",
